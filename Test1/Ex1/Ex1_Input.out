@@ -1,0 +1,50 @@
+This file lists all inputs for the Dynamically Dimensioned Search (DDS) Algorithm (ver 1.1) by Bryan Tolson.
+
+DDS algorithm used to MINIMIZE the ackley10.m function or program. 
+Date of optimization run: 20-Oct-2011 17:28:23 
+
+-------------------------------------------------------------------- 
+
+User has no additional comments on run.
+
+Decision variables are:
+
+Name       MIN       MAX 
+1      -2.0000     2.0000 
+2      -2.0000     2.0000 
+3      -2.0000     2.0000 
+4      -2.0000     2.0000 
+5      -2.0000     2.0000 
+6      -2.0000     2.0000 
+7      -2.0000     2.0000 
+8      -2.0000     2.0000 
+9      -2.0000     2.0000 
+10     -2.0000     2.0000 
+
+DDS neighborhood size parameter:  0.200000 
+Number of optimization trials with above parameters:      2   
+Number of total objective function evaluations per trial:   1000   
+
+Program randomly generated initial solutions.
+Matlab version 5 and higher random number generator used for this run.
+   User entered random state 1 as:  123456789
+   User entered random state 2 as:  987654321
+For each trial,     5 random initial solutions are evaluated & best is initial DDS solution.
+To replicate these results use random initial solution and the same 2 random states.
+Use initial solution file Ex1_ini.out and vary random states for more optimization trials 
+to start at the initial solutions for this run.
+
+More OUTPUT files written by program are as follows:
+    Ex1_ini.out contains initial solutions used in all trials.
+        - Row 1 is trial 1, Row 2 is trial 2, etc.  Dec Vars 1 thru D in columns 1 thru D.
+    2 files named Ex1_#.out store Jbest, Jtest and Dec Vars by iter# for each trial.
+    2 files named Ex1_sbest#.out store best decision variable (Dec Var) values (i.e. solutions) for each trial.
+        - Row 1 is trial 1, Row 2 is trial 2, etc.  Variables 1 thru D in columns 1 thru D.
+    Ex1_AVG.out contains averaged output data across trials - Jbest and Jtest.
+    Ex1_sbest.out contains the best decision variable values found for all trials.
+        - Row 1 is trial 1, Row 2 is trial 2, etc.  Dec Vars 1 thru D in columns 1 thru D.
+    Ex1_trials.out contains Jbest for all iterations across all trials.
+        - Column 1 is Jbest from trial 1, Col 2 from trial 2 etc...
+
+ Note that Jbest -> is the best value of the objective function found so far and 
+          Jtest -> is the objective function value of the test, or candidate solution. 
