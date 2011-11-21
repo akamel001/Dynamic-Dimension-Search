@@ -1,19 +1,3 @@
-                           DISTRIBUTION PACKAGE
-
-	       DYNAMICALLY DIMENSIONED SEARCH (DDS) ALGORITHM
-	
-        	             MATLAB 14 PC Version 1.1mp
-
-                           by: Dr. Bryan Tolson
-                       
-				Assistant Professor
-				Department of Civil & Environmental Engineering
-				University of Waterloo
-				200 University Avenue West
-				Waterloo, Ontario, Canada, N2L 3G1
-				Ph: 519 888 4567 ext. 33377
-				email: btolson@uwaterloo.ca
-
 REFERENCE FOR THIS ALGORITHM:  
 Tolson, B. A., and C. A. Shoemaker (2007), Dynamically dimensioned search algorithm for computationally efficient watershed model calibration, Water Resour. Res., 43, W01413, doi:10.1029/2005WR004723.
 
